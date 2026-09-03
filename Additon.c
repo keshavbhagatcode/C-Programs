@@ -1,6 +1,5 @@
 //This program is used to add two numbers.
 #include<stdio.h>
-#include<conio.h>
 void main()
 {
     int a,b,sum;
@@ -8,5 +7,4 @@ void main()
     scanf("%d %d",&a,&b);
     sum=a+b;
     printf("Sum of %d and %d is: %d",a,b,sum);
-    getch();
 }
