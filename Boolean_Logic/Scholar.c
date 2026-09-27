@@ -14,7 +14,7 @@ void main()
     scanf("%d", &income);
 
     // Check eligibility criteria
-    isEligible = (gpa >= 3.5 && income <= 50000) ? true : false;
+    isEligible = (gpa >= 3.5 && income <= 200000) ? true : false;
 
     // Display result
     if (isEligible) 

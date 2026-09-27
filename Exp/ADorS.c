@@ -7,7 +7,7 @@ void main()
     printf("Enter any character: ");
     scanf("%c", &ch);
     bool isLetter=(ch>=65&&ch<=90)?true:(ch>=97&&ch<=122)?true:false;
-    bool isDigit=(ch>=48&&ch<=57);
+    bool isDigit=(ch>=48&&ch<=57)?true:false;
     bool isSpecial=(isLetter==false&&isDigit==false)?true:false;
     printf("\n--- Results for '%c' (ASCII: %d) ---\n", ch, ch);
 
