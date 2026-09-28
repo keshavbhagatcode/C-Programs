@@ -12,7 +12,7 @@ float celsiusToKelvin(float celsius)
 {
     return celsius + 273.15;
 }
-int main() 
+void main() 
 {
     float celsius, fahrenheit, kelvin;
 
@@ -27,5 +27,4 @@ int main()
     scanf("%f", &fahrenheit);
     celsius = fahrenheitToCelsius(fahrenheit);
     printf("Temperature in Celsius: %f\n", celsius);
-    return 0;
 }
