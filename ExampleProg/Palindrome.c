@@ -1,4 +1,4 @@
-//Check whether a number is a Palindrome or not using bitwise operators
+//Check whether a number is a Palindrome or not using bitwise operators by creating a function
 #include <stdio.h>
 
 int main() 
