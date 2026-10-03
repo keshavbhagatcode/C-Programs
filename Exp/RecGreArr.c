@@ -20,12 +20,13 @@ int findMax(int arr[], int n) {
 }
 
 int main() {
-    int arr[] = {12, 45, 67, 23, 89, 34};
-    int n = sizeof(arr) / sizeof(arr[0]);
-
-    printf("Array elements: ");
+    int n;
+    printf("Enter the number of elements in the array: ");
+    scanf("%d", &n);
+    int arr[n];
+    printf("Enter the elements of the array: ");
     for (int i = 0; i < n; i++) {
-        printf("%d ", arr[i]);
+        scanf("%d", &arr[i]);
     }
 
     int maxVal = findMax(arr, n);
