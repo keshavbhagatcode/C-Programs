@@ -22,7 +22,9 @@ void printReverse(char str[]) {
 }
 
 int main() {
-    char str[] = "Hello World";
+    char str[100];
+    printf("Enter a string to reverse: ");
+    fgets(str, sizeof(str), stdin);
 
     printf("Original string: %s\n", str);
     printf("Reversed string: ");

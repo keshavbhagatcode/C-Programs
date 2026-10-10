@@ -17,15 +17,10 @@ int reverseNumber(int num) {
 }
 
 int main() {
-    // Verification test cases
-    int testCases[] = {12345, 0, 7, 1000, 404};
-    int numTests = sizeof(testCases) / sizeof(testCases[0]);
-
-    printf("=== Test Verification ===\n");
-    for (int i = 0; i < numTests; i++) {
-        int input = testCases[i];
-        printf("Input: %-6d -> Reversed: %d\n", input, reverseNumber(input));
-    }
-
+    printf("Enter a number to reverse: ");
+    int number;
+    scanf("%d", &number);
+    int reversed = reverseNumber(number);
+    printf("Input: %-6d -> Reversed: %d\n", number, reversed);
     return 0;
 }
