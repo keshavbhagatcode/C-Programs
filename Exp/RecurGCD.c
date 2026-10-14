@@ -9,7 +9,7 @@ int gcd(int a, int b) {
     return gcd(b, a % b);
 }
 
-int main() {
+void main() {
     int num1, num2;
 
     printf("Enter two positive integers: ");
@@ -18,5 +18,4 @@ int main() {
     int result = gcd(num1, num2);
     printf("The GCD of %d and %d is: %d\n", num1, num2, result);
 
-    return 0;
 }
